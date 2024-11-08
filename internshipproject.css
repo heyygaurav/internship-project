@@ -1,0 +1,32 @@
+h1{
+    font-size: 50px;
+    background-size: auto;
+    background-color: darkslategrey;
+    text-align: center;
+    margin-top: 50px;
+}
+div.red{
+    background-color: antiquewhite;
+    p.h3{
+        align-items: center;
+        font-size: medium;
+    }
+    p{
+        align-items: first baseline;
+
+    }
+    ul{
+        align-items: center;
+        font-size: medium;
+        background-color: darkslategrey;
+    }
+}
+div.blue{
+    h6{
+        text-align: center;
+        align-items: center;
+        font-size: small;
+        background-color: darkslategrey;
+
+    }
+}
