@@ -1,0 +1,10 @@
+header{
+    background-color: darkslategrey;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+header nav ul li{
+    align-items: end;
+    margin: 20px;
+}
