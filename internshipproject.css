@@ -1,8 +1,99 @@
+/* header  */
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: larger;
   }
   header{
-    background-color: darkgrey;
+    background-color: rgba(17, 1, 1, 0.641);
+    color:white;
+    padding: 20px;
+    
+  }
+  header nav ul{
+    display:flex;
+    justify-content:space-between;
+  }
+  header nav ul li{
+    margin: 20px;
+  }
+  /* hero section  */
+  .hero{
+   background-color:rgb(201, 153, 177);
+}
+.hero h2{
+    align-items: center;
+    justify-items: center;
+    padding: 20px;   
+    text-align: center;
+    
+}
+.hero p{
+    text-align: center;
+    padding: auto;
+    font-style: italic;
+}
+/* main section heading  */
+.main h2{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    align-items: center;
+    font-size: 40px;
+}
+/* main section  */
+
+.black{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .item p{
+    font-style: italic;
+    font-size: auto;
+  }
+/* contact section  */
+.green{
+    background-color:rgb(201, 153, 177) ;
+}
+.green h2{
+    text-align: center;
+    align-items: center;
+    box-sizing: 80px;
+    bottom: 80px;
+    font-size: 50px;
+    
+}
+.green{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 350px;
+    position: relative;
+}
+/* footer  */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+  }
+
+  label{
+    font-style: normal;
+    font-size: 20px;
+  }
+input{
+    font-style: italic;
   }
